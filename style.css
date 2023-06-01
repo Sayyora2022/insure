@@ -128,6 +128,8 @@
   margin-bottom: -113px;
 }
 
+/* About part */
+
 .about {
   padding-top: 305px;
   padding-bottom: 158px;
@@ -294,10 +296,6 @@ color: #837D88;
 
 }
 
-.footeritem-box{
-  
-}
-
 .footer-item{
   font-family: 'Karla';
 font-style: normal;
@@ -308,4 +306,119 @@ letter-spacing: 1.5px;
 gap: 16px;
 color: #2D2641;
 margin-bottom: 16px;
+}
+
+.menu {
+  display: none;
+  padding: 5px;
+  background-color: transparent;
+
+}
+
+.menu .bx {
+  font-size: 22px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  /* Header */
+
+  .navbar {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  /* Hero media */
+
+  .herobox {
+    flex-direction: column-reverse;
+    gap: 0px;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+  }
+
+  .title {
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.666667px;
+  }
+  
+  .hero-text {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  .hero-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero {
+    padding-bottom: 93px;
+    padding-top: 0px;
+
+  }
+
+  /* About media */
+
+  .about {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  
+  }
+
+    
+  .about-title {
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.666667px;
+  }
+
+  .aboutbox {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .about-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 56px;
+  }
+
+  .about-item h3 {
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.388889px;
+  }
+
+  .about-item p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  .chiziq {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
 }
