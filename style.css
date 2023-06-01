@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.header {
+  padding: 21px 0;
+}
+
+.container {
+  width: 1130px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.headerBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+
+}
+
+.navbarBox {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+
+}
+
+.navbar-link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  font-family: 'Karla';
+  color: #837D88;
+}
+
+.btn {
+  font-family: 'Karla';
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #2C2830;
+  background: transparent;
+  padding: 13px 28px;
+}
+
+.herobox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 75px;
+}
+
+.hero {
+  background: #2D2641;
+  padding-top: 63px;
+  background-image: url("./img/Group\ 17.svg");
+  background-repeat: no-repeat;
+  background-position: right -90px;
+  background-size: contain;
+
+}
+
+.chiziq {
+  display: block;
+  width: 150px;
+  height: 2px;
+  background-color: #FFFFFF;
+  margin-bottom: 63px;
+}
+
+.title {
+  font-family: 'DM Serif Display';
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.hero-text {
+  font-family: 'Karla';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+.hero-btn {
+  font-family: 'Karla';
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #FFFFFF;
+  background: transparent;
+  padding: 13px 28px;
+  border: 2px solid #FFFFFF;
+}
+
+.hero-img {
+  width: 540px;
+  height: 650px;
+  margin-bottom: -113px;
+}
+
+.about {
+  padding-top: 305px;
+  padding-bottom: 158px;
+
+}
+
+.chiziq {
+  width: 150px;
+  height: 1px;
+  background-color: #2D2641;
+  display: block;
+  margin-bottom: 63px;
+}
+
+.about-title {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #2C2830;
+  margin-bottom: 96px;
+}
+
+
+.aboutbox {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.about-item h3 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.388889px;
+  color: #2C2830;
+  margin-bottom: 16px;
+}
+
+
+.about-item p {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #837D88;
+}
+
+
+.about-item img {
+  width: 86px;
+  height: 86px;
+  margin-bottom: 32px;
+
+}
+
+.aside {
+  background-image: url("./img/ggg.svg");
+  background-repeat: no-repeat;
+  padding: 69px 81px;
+  background-color: #2D2641;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 150px;
+  background-position: right center;
+
+}
+
+.aside h2 {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.777778px;
+  color: #FFFFFF;
+  width: 50%;
+}
+
+.aside button {
+  padding: 13px 24px;
+  background-color: transparent;
+  border: 2px solid #FFF;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #FFFFFF;
+
+}
+
+.footerBox {
+  padding: 64px 0;
+  background: #FAFAFA;
+}
+
+.footerimg-box{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+
+.footer-iconbox{
+display: flex;
+align-items: center;
+justify-content: space-between;
+list-style: none;
+gap: 16px;
+}
+
+.footerimg{
+  margin-bottom: 23px;
+  width: 111.22px;
+}
+
+.footericon{
+  margin-bottom: 33px;
+
+}
+
+
+hr{
+background: #DADADA;
+margin-bottom: 50px !important;
+
+}
+
+.footer-qsm{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.footeritem-box{
+  list-style: none;
+}
+
+.footer-title{
+  margin-bottom: 36px;
+  
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1.5px;
+
+color: #837D88;
+
+}
+
+.footeritem-box{
+  
+}
+
+.footer-item{
+  font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: 1.5px;
+gap: 16px;
+color: #2D2641;
+margin-bottom: 16px;
+}
