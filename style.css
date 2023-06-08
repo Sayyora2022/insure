@@ -420,5 +420,70 @@ margin-bottom: 16px;
     margin: 0 auto;
     margin-bottom: 40px;
   }
+  .aside {
+    background-image: url("./img/ggg.svg");
+    flex-direction: column;
+    margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-position:right top ;
+  
+  }
+
+  .aside h2 {
+    font-size: 40px;
+    line-height: 40px; 
+    text-align: center;
+margin-bottom: 40px;
+  }
+
+  .aside button {
+  
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px
+    
+
+    
+  
+  }
+  .footerimg-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 22px;
+    
+    }
+
+    .footer-qsm{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      
+
+
+    }
+
+    
+.footer-title{
+  margin-bottom: 36px;
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+letter-spacing: 1.5px;
+
+}
+
+.footer-item{
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+margin-bottom: 16px;
+
 
 }
